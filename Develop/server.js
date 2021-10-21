@@ -8,11 +8,13 @@ const notesRoutes = require('./routes/notesRoutes')
 const PORT = 3000;
 
 
-
+// allows information to be recieved and stored 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+// tells server to look in public folder for information
 app.use(express.static('public'));
 
+// connects both scripts to the server with appropriate location
 app.use('/api', notesRoutes)
 app.use('/', htmlRoutes)
 
