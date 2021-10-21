@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 const htmlRoutes = require('./routes/htmlRoutes')
 const notesRoutes = require('./routes/notesRoutes')
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 // allows information to be recieved and stored 
