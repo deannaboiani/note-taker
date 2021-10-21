@@ -8,10 +8,10 @@ You can run this here:
 
 ## Usage
 
-# takes in user inputs
-# saves inputs using save icon
-# saved notes are stores on left side of screen
-# if a stored note is clicked, it will populate in the new note section
+- takes in user inputs
+- saves inputs using save icon
+- saved notes are stores on left side of screen
+- if a stored note is clicked, it will populate in the new note section
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
